@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/green_dust_scratch.png);
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    font-size: 36px;
+    color: rgb(1, 161, 163);
+    background-color: oldlace;
+    border-bottom: solid 2px burlywood;
+    height: 75px;
+}
+.title {
+    padding: 15px;
+    margin: 0px 400px;
+}
+.instructions {
+    font-size: 20px;
+    background-color: oldlace;
+    border: solid 2px burlywood;
+    margin: 30px;
+    padding: 5px;
+}
+
+.gem1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px 20px 175px;
+    
+}
+
+.gem2 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+}
+
+.gem3 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+}
+
+.gem4 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+}
+
+.target {
+    float: left;
+    font-size: 24px;
+    background-color: oldlace;
+    border: solid 2px burlywood;
+    height: 150px;
+    width: 250px;
+    margin: 15px 400px 30px 30px;
+    padding: 15px;
+}
+.score {
+    float: right;
+    font-size: 24px;
+    background-color: oldlace;
+    border: solid 2px burlywood;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 15px 250px 0 30px;
+
+}
