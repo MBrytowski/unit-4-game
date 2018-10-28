@@ -3,15 +3,16 @@
 }
 
 body {
-    background-image: url(../images/green_dust_scratch.png);
+    /* background-image: url(../images/green_dust_scratch.png); */
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: darkgray;
 }
 .header {
-    font-size: 36px;
+    font-size: 40px;
     color: rgb(1, 161, 163);
-    background-color: oldlace;
-    border-bottom: solid 2px burlywood;
+    background-color: whitesmoke;
+    border-bottom: solid 2px rgb(34, 33, 33);
     height: 75px;
 }
 .title {
@@ -20,8 +21,8 @@ body {
 }
 .instructions {
     font-size: 20px;
-    background-color: oldlace;
-    border: solid 2px burlywood;
+    background-color: whitesmoke;
+    border: solid 2px rgb(34, 33, 33);
     margin: 30px;
     padding: 5px;
 }
@@ -57,8 +58,8 @@ body {
 .target {
     float: left;
     font-size: 24px;
-    background-color: oldlace;
-    border: solid 2px burlywood;
+    background-color: whitesmoke;
+    border: solid 2px rgb(34, 33, 33);
     height: 150px;
     width: 250px;
     margin: 15px 400px 30px 30px;
@@ -67,10 +68,10 @@ body {
 .score {
     float: right;
     font-size: 24px;
-    background-color: oldlace;
-    border: solid 2px burlywood;
-    width: 200px;
-    height: 200px;
+    background-color: whitesmoke;
+    border: solid 2px rgb(34, 33, 33);
+    width: 250px;
+    height: 175px;
     padding: 20px;
     margin: 15px 250px 0 30px;
 
