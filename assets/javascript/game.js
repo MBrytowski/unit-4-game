@@ -44,35 +44,35 @@ $(document).ready(function () {
         };
 
         $(".gem1").on("click", function () {
-            var gemValue = ($(this).attr("data-gemdata"));
-            gemValue = parseInt(gemValue);
-            gemCounter += gemValue;
+            var gemValue1 = ($(this).attr("data-gemdata"));
+            gemValue1 = parseInt(gemValue1);
+            gemCounter += gemValue1;
             $("#totalScore").text("Total Score: " + gemCounter);
             game();
         });
     
         $(".gem2").on("click", function () {
-            var gemValue = ($(this).attr("data-gemdata"));
-            gemValue = parseInt(gemValue);
-            gemCounter += gemValue;
+            var gemValue2 = ($(this).attr("data-gemdata"));
+            gemValue2 = parseInt(gemValue2);
+            gemCounter += gemValue2;
             $("#totalScore").text("Total Score: " + gemCounter);
             game();
         });
     
         $(".gem3").on("click", function () {
-            var gemValue = ($(this).attr("data-gemdata"));
-            gemValue = parseInt(gemValue);
-            gemCounter += gemValue;
+            var gemValue3 = ($(this).attr("data-gemdata"));
+            gemValue3 = parseInt(gemValue3);
+            gemCounter += gemValue3;
             $("#totalScore").text("Total Score: " + gemCounter);
             game();
         });
     
         $(".gem4").on("click", function () {
-            var gemValue = ($(this).attr("data-gemdata"));
-            gemValue = parseInt(gemValue);
-            gemCounter += gemValue;
+            var gemValue4 = ($(this).attr("data-gemdata"));
+            gemValue4 = parseInt(gemValue4);
+            gemCounter += gemValue4;
             $("#totalScore").text("Total Score: " + gemCounter);
             game();
         });
     });
-});
+})
