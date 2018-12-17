@@ -9,3 +9,6 @@ match the random number in order to win! If your score goes over the
 selected number, the game will reset.
 
 Each game the value of the crystals will reset as well as the target number.
+
+## Deployed Link
+https://mbrytowski.github.io/unit-4-game/
